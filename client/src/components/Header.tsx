@@ -44,10 +44,14 @@ export default function Header() {
       <div className="container flex items-center justify-between">
         <a 
           href="#home" 
-          className="font-heading text-2xl font-bold text-primary tracking-wide"
+          className="flex items-center gap-3 group"
           onClick={(e) => scrollToSection(e, "#home")}
         >
-          Dra. Fernanda Melo
+          <img src="/images/logo-dark.png" alt="Logo Dra. Fernanda Melo" className="h-20 w-20 object-contain group-hover:scale-105 transition-transform duration-300" />
+          <div className="flex flex-col">
+            <span className="text-2xl font-heading font-bold text-primary tracking-wide uppercase leading-none">Fernanda Melo</span>
+            <span className="text-[0.65rem] font-sans text-muted-foreground tracking-[0.25em] uppercase leading-none mt-1.5">Geriatria</span>
+          </div>
         </a>
 
         {/* Desktop Navigation */}
@@ -64,7 +68,7 @@ export default function Header() {
           ))}
           <Button 
             className="bg-primary hover:bg-primary/90 text-white rounded-full px-6"
-            onClick={() => window.open("https://wa.me/5511999999999", "_blank")}
+            onClick={() => window.open("https://wa.me/5521996450099", "_blank")}
           >
             Agendar Consulta
           </Button>
@@ -94,7 +98,7 @@ export default function Header() {
           ))}
           <Button 
             className="bg-primary hover:bg-primary/90 text-white w-full mt-2"
-            onClick={() => window.open("https://wa.me/5511999999999", "_blank")}
+            onClick={() => window.open("https://wa.me/5521996450099", "_blank")}
           >
             Agendar Consulta
           </Button>

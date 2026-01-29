@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Specialties from "@/components/Specialties";
 import Differentials from "@/components/Differentials";
 import Contact from "@/components/Contact";
+import Testimonials from "@/components/Testimonials";
 import { ArrowUp } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
@@ -32,13 +33,14 @@ export default function Home() {
         <About />
         <Specialties />
         <Differentials />
+        <Testimonials />
       </main>
 
       <Contact />
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/5511999999999"
+        href="https://wa.me/5521996450099"
         target="_blank"
         rel="noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#20bd5a] text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 flex items-center justify-center animate-in fade-in zoom-in"
