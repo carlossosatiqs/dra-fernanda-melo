@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="container relative z-20 grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6 animate-in slide-in-from-left duration-700 fade-in">
           <div className="inline-block px-4 py-1.5 rounded-full bg-secondary/30 text-primary text-sm font-semibold tracking-wide mb-2 border border-secondary/20">
-            Geriatria e Longevidade
+            Atenção e Saúde do idoso
           </div>
           
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight">

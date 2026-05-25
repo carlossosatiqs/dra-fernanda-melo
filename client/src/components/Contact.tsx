@@ -4,8 +4,8 @@ import { Mail, Instagram, Phone, MapPin } from "lucide-react";
 export default function Contact() {
   const contactInfo = {
     whatsapp: "5521996450099",
-    email: "contato@drafernandamelo.com.br",
-    instagram: "drafernandamelo",
+    email: "contato@drafernandamelocamino.com",
+    instagram: "nandacmelo_",
     address: "Av. Nossa Sra. de Copacabana, 788 - Sala 705 - Copacabana, Rio de Janeiro - RJ, 22050-001"
   };
 
@@ -28,7 +28,7 @@ export default function Contact() {
               <h3 className="font-heading text-2xl font-bold tracking-wide">FERNANDA MELO</h3>
             </div>
             <p className="text-primary-foreground/80 max-w-sm leading-relaxed font-light">
-              Médica Geriatra dedicada a promover saúde, autonomia e qualidade de vida na maturidade com um olhar integral e humanizado.
+              Médica dedicada a promover saúde, autonomia e qualidade de vida na maturidade com um olhar integral e humanizado.
             </p>
             <div className="flex gap-4 pt-2">
               <a 
@@ -105,7 +105,7 @@ export default function Contact() {
 
         <div className="border-t border-white/10 mt-20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60 font-light">
           <p>© {new Date().getFullYear()} Dra. Fernanda Melo. Todos os direitos reservados.</p>
-          <p>Geriatria com Amor e Ciência</p>
+          <p>Atenção ao Idoso com Amor e Ciência</p>
         </div>
       </div>
     </footer>
