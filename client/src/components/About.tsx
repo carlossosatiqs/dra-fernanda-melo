@@ -2,11 +2,9 @@ import { CheckCircle2 } from "lucide-react";
 
 export default function About() {
   const credentials = [
-    "Graduação em Medicina pela USP",
+    "Graduação em Medicina pela FMP",
     "Residência em Clínica Médica",
-    "Especialização em Geriatria pelo Hospital das Clínicas",
-    "Membro da Sociedade Brasileira de Geriatria e Gerontologia",
-    "Pós-graduação em Cuidados Paliativos"
+    "Especialização em Geriatria pela UERJ"
   ];
 
   return (
@@ -40,7 +38,7 @@ export default function About() {
               <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary">
                 Dra. Fernanda Melo
               </h2>
-              <p className="text-accent-foreground font-medium text-lg border-l-4 border-accent pl-4">CRM 123456 • RQE 12345</p>
+              <p className="text-accent-foreground font-medium text-lg border-l-4 border-accent pl-4">CRM 52778940 • RQE 54042 (Clínica Médica)</p>
             </div>
 
             <div className="space-y-4 text-muted-foreground leading-relaxed text-lg font-light">
@@ -48,7 +46,7 @@ export default function About() {
                 Acredito que envelhecer é um privilégio que deve ser vivido com <strong className="text-primary font-medium">plenitude</strong>. Minha missão é oferecer um olhar atento e integral à saúde do idoso, indo além do tratamento de doenças.
               </p>
               <p>
-                Com mais de 10 anos de experiência em geriatria, meu foco é preservar a autonomia e a qualidade de vida, compreendendo que cada paciente traz consigo uma história única que merece ser ouvida e respeitada.
+                Com mais de 20 anos de experiência, meu foco é preservar a autonomia e a qualidade de vida, compreendendo que cada paciente traz consigo uma história única que merece ser ouvida e respeitada.
               </p>
             </div>
 
