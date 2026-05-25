@@ -10,12 +10,12 @@ export default function Specialties() {
     {
       title: "Prevenção e Longevidade",
       description: "Check-up geriátrico focado em envelhecimento saudável, vacinação e orientações para um estilo de vida ativo.",
-      image: "/images/specialty-preventive.jpg"
+      image: "/images/specialty-longevity.jpg"
     },
     {
       title: "Doenças Crônicas",
       description: "Manejo cuidadoso de condições como hipertensão, diabetes e osteoporose, visando o controle e bem-estar.",
-      image: "/images/specialty-longevity.jpg"
+      image: "/images/specialty-cronic.jpg"
     },
     {
       title: "Avaliação Global",
