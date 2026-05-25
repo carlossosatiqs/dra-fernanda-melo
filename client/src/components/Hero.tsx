@@ -52,7 +52,7 @@ export default function Hero() {
           <div className="absolute inset-0 bg-secondary/30 rounded-[40%_60%_70%_30%/40%_50%_60%_50%] transform rotate-3 translate-x-4 translate-y-4 -z-10 blur-sm" />
           
           <img 
-            src="/images/doctor-real-photo.png" 
+            src="/images/doctor-portrait.png" 
             alt="Dra. Fernanda Melo" 
             className="w-full h-full object-cover rounded-[2rem] shadow-2xl object-[50%_35%]"
           />
