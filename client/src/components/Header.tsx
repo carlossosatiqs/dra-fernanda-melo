@@ -50,7 +50,7 @@ export default function Header() {
           <img src="/images/logo-dark.png" alt="Logo Dra. Fernanda Melo" className="h-20 w-20 object-contain group-hover:scale-105 transition-transform duration-300" />
           <div className="flex flex-col">
             <span className="text-2xl font-heading font-bold text-primary tracking-wide uppercase leading-none">Fernanda Melo</span>
-            <span className="text-[0.65rem] font-sans text-muted-foreground tracking-[0.25em] uppercase leading-none mt-1.5">Geriatria</span>
+            <span className="text-[0.65rem] font-sans text-muted-foreground tracking-[0.25em] uppercase leading-none mt-1.5">Atenção e Saúde do Idoso</span>
           </div>
         </a>
 
